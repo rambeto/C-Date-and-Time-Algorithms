@@ -19,13 +19,7 @@ A collection of C++ problems and solutions focused on date and time manipulation
 | 15 | [15_IncreaseDateByOneDay.txt](./15_IncreaseDateByOneDay.txt) | Increment date by one day | Date Increment |
 | 16 | [16_GetDiffDate1-Date2.txt](./16_GetDiffDate1-Date2.txt) | Difference between two dates | Date Difference |
 | 17 | [17_YourAgeInDays.txt](./17_YourAgeInDays.txt) | Calculate age in days | Real-world Problem |
-| 18 | [18_DefInDaysNegativDays.txt](./18_DefInDaysNegativDays.txt) | Handle negative date difference | Edge Handling |
-| 19 | [19_IncreaseDateProblems.cpp](./19_IncreaseDateProblems.cpp) | Advanced date increment problems | Problem Solving |
-| 20 | [20_53.txt](./20_53.txt) | Problem 53 (unspecified) | General Logic |
-| 21 | [21_VactionPeriod.txt](./21_VactionPeriod.txt) | Calculate vacation period | Date Range |
-| 22 | [22_CalculateVacationReturnDate.txt](./22_CalculateVacationReturnDate.txt) | Vacation return date | Business Logic |
-| 23 | [23_Date1AfterDate2.txt](./23_Date1AfterDate2.txt) | Check if date1 is after date2 | Comparison |
-| 24 | [24_CompareDates.cpp](./24_CompareDates.cpp) | Full date comparison system | Structured Logic |
+
 
 ## ⭐ Featured Solutions
 
@@ -96,10 +90,3 @@ A collection of C++ problems and solutions focused on date and time manipulation
 - **Key Skill:** **Real-world Problem Solving**
 
 ---
-
-### 🔹 24_CompareDates
-- **Goal:** Build a complete system to compare two dates.
-- **Logic:**  
-  - Compare year → month → day step by step  
-- **Key Skill:** **Structured Thinking & Comparison Logic**
-
