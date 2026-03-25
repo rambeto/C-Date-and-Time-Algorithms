@@ -3,7 +3,7 @@ A collection of C++ problems and solutions focused on date and time manipulation
 | #  | File Name | Description | Key Concept |
 |----|----------|------------|-------------|
 | 01 | [01_LeapYear.cpp](./01_LeapYear.cpp) | Check if a year is a leap year | Leap Year Logic |
-| 02 | [02_LeapYear.cpp](./02_LeapYear.cpp) | Alternative leap year implementation | Conditional Logic |
+| 02 | [02_LeapYear2.cpp](./02_LeapYear2.cpp) | Alternative leap year implementation | Conditional Logic |
 | 03 | [03_NumberOf-Days-Hours-Minutes-Sec.cpp](./03_NumberOf-Days-Hours-Minutes-Sec.cpp) | Convert time units | Time Conversion |
 | 04 | [04_NumberOfD-H-M-SInMonth.cpp](./04_NumberOfD-H-M-SInMonth.txt) | Calculate time in a month | Aggregation |
 | 05 | [05_NumberOfDaysInMonthShortLogic.cpp](./05_NumberOfDaysInMonthShortLogic.cpp) | Days in month using short logic | Optimization |
