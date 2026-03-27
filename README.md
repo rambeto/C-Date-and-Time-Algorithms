@@ -1,92 +1,103 @@
-# C-Date-and-Time-Algorithms
+# 🚀 C-Date-and-Time-Algorithms
+
 A collection of C++ problems and solutions focused on date and time manipulation, including leap years, calendars, date comparison, and real-world scenarios. Designed to improve problem-solving skills and build strong logic in handling date-based algorithms.
-| #  | File Name | Description | Key Concept |
-|----|----------|------------|-------------|
-| 01 | [01_LeapYear.cpp](./01_LeapYear.cpp) | Check if a year is a leap year | Leap Year Logic |
-| 02 | [02_LeapYear2.cpp](./02_LeapYear2.cpp) | Alternative leap year implementation | Conditional Logic |
-| 03 | [03_NumberOf-Days-Hours-Minutes-Sec.cpp](./03_NumberOf-Days-Hours-Minutes-Sec.cpp) | Convert time units | Time Conversion |
-| 04 | [04_NumberOfD-H-M-SInMonth.cpp](./04_NumberOfD-H-M-SInMonth.txt) | Calculate time in a month | Aggregation |
-| 05 | [05_NumberOfDaysInMonthShortLogic.cpp](./05_NumberOfDaysInMonthShortLogic.cpp) | Days in month using short logic | Optimization |
-| 06 | [06_DayName.cpp](./06_DayName.cpp) | Get day name from number | Mapping |
-| 07 | [07_MonthCalendar.cpp](./07_MonthCalendar.cpp) | Print month calendar | Nested Loops |
-| 08 | [08_YearCalendar.cpp](./08_YearCalendar.cpp) | Print full year calendar | Loops & Formatting |
-| 09 | [09_DaysFromTheBeginningOfYear.cpp](./09_DaysFromTheBeginningOfYear.cpp) | Calculate days from start of year | Accumulation |
-| 10 | [10_DateFromDayInOrderInYear.cpp](./10_DateFromDayInOrderInYear.cpp) | Convert day order to date | Reverse Calculation |
-| 11 | [11_AddDaysToDate.cpp](./11_AddDaysToDate.cpp) | Add days to a date | Date Arithmetic |
-| 12 | [12_Date1LessThenDate2.cpp](./12_Date1LessThenDate2.cpp) | Compare two dates | Comparison |
-| 13 | [13_Date1EqualDate2.cpp](./13_Date1EqualDate2.cpp) | Check if dates are equal | Equality Check |
-| 14 | [14_isLastDayANdIsLastMonth.cpp](./14_isLastDayANdIsLastMonth.cpp) | Check last day/month | Edge Cases |
-| 15 | [15_IncreaseDateByOneDay.cpp](./15_IncreaseDateByOneDay.cpp) | Increment date by one day | Date Increment |
-| 16 | [16_GetDiffDate1-Date2.cpp](./16_GetDiffDate1-Date2.cpp) | Difference between two dates | Date Difference |
-| 17 | [17_YourAgeInDays.cpp](./17_YourAgeInDays.cpp) | Calculate age in days | Real-world Problem |
-
-
-## ⭐ Featured Solutions
-
-### 🔹 01_LeapYear
-- **Goal:** Determine whether a given year is a leap year.
-- **Logic:**  
-  A year is a leap year if:
-  - It is divisible by 4  
-  - Not divisible by 100 unless it is also divisible by 400  
-- **Key Skill:** **Compound Conditions & Logical Operators**
 
 ---
 
-### 🔹 03_NumberOf-Days-Hours-Minutes-Sec
-- **Goal:** Convert between days, hours, minutes, and seconds.
-- **Logic:**  
+## 📊 Problems Table
+
+| #  | File Name | Description | Key Concept |
+|----|----------|------------|-------------|
+| 01 | [01_NumberToText.cpp](./01_NumberToText.cpp) | Convert numbers into their textual representation | Recursion, Strings |
+| 02 | [02_LeapYear.cpp](./02_LeapYear.cpp) | Check if a year is a leap year | Leap Year Logic |
+| 03 | [03_LeapYear2.cpp](./03_LeapYear2.cpp) | Alternative leap year implementation | Conditional Logic |
+| 04 | [04_NumberOf-Days-Hours-Minutes-Sec.cpp](./04_NumberOf-Days-Hours-Minutes-Sec.cpp) | Convert time units | Time Conversion |
+| 05 | [05_NumberOfD-H-M-SInMonth.cpp](./05_NumberOfD-H-M-SInMonth.cpp) | Calculate time in a month | Aggregation |
+| 06 | [06_NumberOfDaysInMonthShortLogic.cpp](./06_NumberOfDaysInMonthShortLogic.cpp) | Days in month using short logic | Optimization |
+| 07 | [07_DayName.cpp](./07_DayName.cpp) | Get day name from number | Mapping |
+| 08 | [08_MonthCalendar.cpp](./08_MonthCalendar.cpp) | Print month calendar | Nested Loops |
+| 09 | [09_YearCalendar.cpp](./09_YearCalendar.cpp) | Print full year calendar | Loops & Formatting |
+| 10 | [10_DaysFromTheBeginningOfYear.cpp](./10_DaysFromTheBeginningOfYear.cpp) | Calculate days from start of year | Accumulation |
+| 11 | [11_DateFromDayInOrderInYear.cpp](./11_DateFromDayInOrderInYear.cpp) | Convert day order to date | Reverse Calculation |
+| 12 | [12_AddDaysToDate.cpp](./12_AddDaysToDate.cpp) | Add days to a date | Date Arithmetic |
+| 13 | [13_Date1LessThenDate2.cpp](./13_Date1LessThenDate2.cpp) | Compare two dates | Comparison |
+| 14 | [14_Date1EqualDate2.cpp](./14_Date1EqualDate2.cpp) | Check if dates are equal | Equality Check |
+| 15 | [15_isLastDayANdIsLastMonth.cpp](./15_isLastDayANdIsLastMonth.cpp) | Check last day/month | Edge Cases |
+| 16 | [16_IncreaseDateByOneDay.cpp](./16_IncreaseDateByOneDay.cpp) | Increment date by one day | Date Increment |
+| 17 | [17_GetDiffDate1-Date2.cpp](./17_GetDiffDate1-Date2.cpp) | Difference between two dates | Date Difference |
+| 18 | [18_YourAgeInDays.cpp](./18_YourAgeInDays.cpp) | Calculate age in days | Real-world Problem |
+
+
+### 🔹 01_NumberToText
+- **🎯 Goal:** Convert a number into its textual representation (e.g., 123 → One Hundred Twenty Three).
+- **🧠 Logic:**  
+  - Break the number into parts (units, tens, hundreds, etc.)  
+  - Map each part to its word equivalent  
+- **💡 Key Skill:** **Recursion + String Manipulation**
+
+---
+
+### 🔹 02_LeapYear
+- **🎯 Goal:** Determine whether a given year is a leap year.
+- **🧠 Logic:**  
+  - Divisible by 4  
+  - Not divisible by 100 unless divisible by 400  
+- **💡 Key Skill:** **Compound Conditions**
+
+---
+
+### 🔹 04_NumberOf-Days-Hours-Minutes-Sec
+- **🎯 Goal:** Convert between time units.
+- **🧠 Logic:**  
   - 1 day = 24 hours  
   - 1 hour = 60 minutes  
   - 1 minute = 60 seconds  
-- **Key Skill:** **Unit Conversion & Arithmetic Operations**
+- **💡 Key Skill:** **Unit Conversion**
 
 ---
 
-### 🔹 05_NumberOfDaysInMonthShortLogic
-- **Goal:** Calculate the number of days in a month using a simplified approach.
-- **Logic:**  
-  - Use concise conditions instead of long if-else chains  
-- **Key Skill:** **Code Optimization & Clean Logic**
+### 🔹 06_NumberOfDaysInMonthShortLogic
+- **🎯 Goal:** Calculate number of days in a month efficiently.
+- **🧠 Logic:**  
+  - Use optimized conditions instead of long branching  
+- **💡 Key Skill:** **Clean Code & Optimization**
 
 ---
 
-### 🔹 07_MonthCalendar
-- **Goal:** Print a formatted calendar for a given month.
-- **Logic:**  
-  - Use nested loops to print days in rows and columns  
-- **Key Skill:** **Nested Loops & Output Formatting**
+### 🔹 08_MonthCalendar
+- **🎯 Goal:** Print a formatted monthly calendar.
+- **🧠 Logic:**  
+  - Use nested loops to align days properly  
+- **💡 Key Skill:** **Nested Loops + Formatting**
 
 ---
 
-### 🔹 08_YearCalendar
-- **Goal:** Print a full year calendar.
-- **Logic:**  
-  - Repeat the month calendar logic for all 12 months  
-- **Key Skill:** **Loop Structuring & Reusability**
+### 🔹 09_YearCalendar
+- **🎯 Goal:** Print a full year calendar.
+- **🧠 Logic:**  
+  - Reuse month logic across 12 months  
+- **💡 Key Skill:** **Reusability**
 
 ---
 
-### 🔹 11_AddDaysToDate
-- **Goal:** Add a number of days to a given date.
-- **Logic:**  
-  - Increment the day while handling month/year boundaries  
-- **Key Skill:** **Date Arithmetic & Edge Case Handling**
+### 🔹 12_AddDaysToDate
+- **🎯 Goal:** Add days to a date.
+- **🧠 Logic:**  
+  - Increment day and handle overflow to month/year  
+- **💡 Key Skill:** **Date Arithmetic**
 
 ---
 
-### 🔹 16_GetDiffDate1-Date2
-- **Goal:** Calculate the difference between two dates.
-- **Logic:**  
-  - Convert dates into total days, then subtract  
-- **Key Skill:** **Problem Decomposition & Calculations**
+### 🔹 17_GetDiffDate1-Date2
+- **🎯 Goal:** Calculate difference between two dates.
+- **🧠 Logic:**  
+  - Convert both dates to total days then subtract  
+- **💡 Key Skill:** **Problem Decomposition**
 
 ---
 
-### 🔹 17_YourAgeInDays
-- **Goal:** Calculate a person's age in days.
-- **Logic:**  
+### 🔹 18_YourAgeInDays
+- **🎯 Goal:** Calculate age in days.
+- **🧠 Logic:**  
   - Subtract birth date from current date  
-- **Key Skill:** **Real-world Problem Solving**
-
----
+- **💡 Key Skill:** **Real-world Logic**
